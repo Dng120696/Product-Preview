@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/css font/all.min.css">
   <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/4a45b90c57.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->    
@@ -14,8 +15,10 @@
 </head>
 <body>
   <div class="container">
-  
-      <img src='./images/image-product-desktop.jpg' alt="product">
+    <div class="img-mobile">
+
+    </div>
+      <img src='./images/image-product-desktop.jpg' alt="product" class="img-desktop">
     <div class="content">
       <h3 class="header1">
         PERFUME
@@ -36,7 +39,7 @@
         </li>
       </ul>
       <button class="btn">
-        <i class="fa-light fa-cart-shopping"></i>
+        <i class="fa-solid fa-cart-shopping"></i> 
         Add to Cart
       </button>   
     </div>
