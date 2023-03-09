@@ -17,9 +17,7 @@
   font-size:62.5%;
 }
 body{
-  width:100%;
-  max-width:1440px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,8 +28,8 @@ body{
 .container{
   display: flex;
   justify-content: center;
-  width: 620px;
-  max-width: 100%;
+  max-width: 620px;
+  width: 100%;
   height: 420px;
   overflow: hidden;
   background-color: #fff;
@@ -42,8 +40,8 @@ p{
   font-size:1.4rem;
 }
 img{
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  display: block;
   
 }
 .content{
@@ -113,6 +111,8 @@ i{
   }
   .img-desktop{
    min-height: 30vh;
+   margin: 0;
+   object-fit: cover;
   }
   .header2{
     font-size: 4.5rem;
